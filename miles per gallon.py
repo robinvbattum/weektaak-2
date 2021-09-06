@@ -1,0 +1,6 @@
+print("wilt u weten hoeveel MPG u rijdt met uw auto? dit kan u hier berekenen!")
+miles =input("\nhoeveel miles heeft u gereden?: ")
+miles=int(miles)
+gallons =input("\nhoeveel benzine heeft u gebruikt?(in gallons): ")
+gallons=int(gallons)
+print("\ndit is uw MPG: ", miles / gallons)
